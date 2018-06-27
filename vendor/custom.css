@@ -321,7 +321,7 @@ input {
   transition: all 0.2s linear;
 }
 #wrapper p.button input:hover{
-  background: rgb(74, 179, 198);
+  background: rgb(32, 198, 98);
 }
 #wrapper p.button input:active,
 #wrapper p.button input:focus{

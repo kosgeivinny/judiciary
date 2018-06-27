@@ -1,3 +1,7 @@
+<?php
+include '../../judiciary/log_connect.php';
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,6 +21,14 @@
 </head>
 
 <body>
+<div class="navbar navbar-inverse navbar-fixed-top" style="background-color: darkgreen">
+    <label style="text-align: right; color:#f5e79e; margin: 0px 0px 0px 100px;"> <h4><b><?php echo $_SESSION['name']; ?></b></h4></label>
+        <span class="logout-spn" style="float:right;">
+                   <a href="logout.php" class="btn btn-warning" style="margin: 8px 50px 0px 0px;">
+          <span class="glyphicon glyphicon-log-out"></span> <b>LOG OUT</b>
+        </a>
+        </span>
+</div>
   <header>
     <div class="container">
       <div class="row">
@@ -38,6 +50,7 @@
                 <li role="presentation"><a href="about.php">About</a></li>
                 <li role="presentation"><a href="contacts.php">Contact</a></li>
                   <img src="img/arms.jpg" style="width: 20%; max-width: 60px; margin: 0 auto;">
+
               </ul>
             </div>
           </div>
