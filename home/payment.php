@@ -49,7 +49,7 @@ include "notices_connect.php";
                             <li role="presentation"><a href="index.php">Home</a></li>
                             <li role="presentation" class="active"><a href="register.php">Registration</a></li>
                             <li role="presentation"><a href="#">Courts</a></li>
-                            <li role="presentation"><a href="#">Cases</a></li>
+                            <li role="presentation"><a href="report.php">Reports</a></li>
                             <li role="presentation"><a href="about.php">About</a></li>
                             <li role="presentation"><a href="contacts.php">Contact</a></li>
                             <img src="img/arms.jpg" style="width: 20%; max-width: 60px; margin: 0 auto;">
@@ -74,7 +74,7 @@ include "notices_connect.php";
         <hr />
         <div class="container">
 
-            <div class="col-lg-8 well" style="background-color: khaki">
+            <div class="col-lg-8 well" style="background-color: #f0ae44">
                 <div class="row">
                     <center>
                         <form class="inline" role="form" action="payment_connect.php" method="POST" enctype="multipart/form-data">
@@ -143,7 +143,7 @@ include "notices_connect.php";
                                         <button type="submit" class="btn btn-success" name="submit" > CONFIRM </button>
                                     </div>
                                     <div class="col-sm-1 form-group">
-                                        <button type="reset" class="btn btn-warning" name="reset" ><span class="glyphicon glyphicon-minus-sign"></span> Reset </button>
+                                        <button type="reset" class="btn btn-danger" name="reset" ><span class="glyphicon glyphicon-minus-sign"></span> Reset </button>
                                     </div>
                                 </div>
 

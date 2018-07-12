@@ -4,14 +4,15 @@ session_start();
 
 if (isset($_POST['submit'])){
     $caseno=$_POST['caseno'];
-    $number=$_POST['gnumber'];
+    $issued=$_POST['issued'];
     $date=$_POST['dateiss'];
+    $expected =$_POST['dateex'];
     $by=$_POST['by'];
 
 
 
 
-    $not= "INSERT INTO government (Caseno, Gazette_no, Date_Issued, Receiver) VALUES ('$caseno', '$number', '$date', '$by')";
+    $not= "INSERT INTO grantt (Caseno, Issued_by, Date_Issued, Date_Expected, Receiver) VALUES ('$caseno', '$issued', '$date', '$expected', '$by')";
     $ton= mysqli_query($conn, $not);
     if (!$ton){
         die("Query failed" .mysqli_error($conn));
@@ -19,7 +20,7 @@ if (isset($_POST['submit'])){
     else {
 
         ?>
-        <script> alert("Notice received!!");
+        <script> alert("Grant issuance confirmed!!");
             window.location.assign('index.php');
         </script>
         <?php

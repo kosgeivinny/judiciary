@@ -7,11 +7,14 @@ if (isset($_POST['submit'])){
     $deceased=$_POST['deceased'];
     $petition1=$_POST['petitioner1'];
     $petition2=$_POST['petitioner2'];
+    $petition3=$_POST['petitioner3'];
+    $petition4=$_POST['petitioner4'];
     $date=$_POST['date'];
+    $by=$_POST['by'];
 
 
 
-    $reg= "INSERT INTO registration (Caseno, Deceased, Petitioner1, Petitioner2, Date) VALUES ('$caseno', '$deceased', '$petition1', '$petition2', '$date')";
+    $reg= "INSERT INTO registration (Caseno, Deceased, Petitioner1, Petitioner2,  Petitioner3,  Petitioner4, Date, Submitted) VALUES ('$caseno', '$deceased', '$petition1', '$petition2', '$petition3', '$petition4', '$date', '$by')";
     $ger= mysqli_query($conn, $reg);
 
         if (!$ger) {

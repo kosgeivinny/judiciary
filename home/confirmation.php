@@ -67,6 +67,7 @@ $sub = $_SESSION['name'];
     if (isset($_POST['submit'])) {
         $case = $_POST['caseno'];
         $date = date("Y/m/d");
+
         echo "<div id='page-inner'>
         <div class='row'>
             <div class='col-md-12'>
@@ -81,59 +82,65 @@ $sub = $_SESSION['name'];
         <div class='container'>
 
                     <center>
-                        <form class='inline' role='form' action='govt_connect.php' method='POST' enctype='multipart/form-data'>
-                            <center>
-                            <div class='col-sm-8' style='background-color:greenyellow'>
-                                <h4 align='center'> <b> <u>CONFIRM GAZETTE NOTICE RECEIVED</u> </b></h4>
+                        <form class='inline' role='form' action='confirmation_connect.php' method='POST' enctype='multipart/form-data'>
+                            <div class='col-sm-12' style='background-color: lightgreen'>
+                                <h4 align='center'> <b> <u>Confirmation Check List</u> </b></h4>
                                 <br>
                                 <br>
                                 <div class='row'>
-                                    <div class='col-sm-2 form-group'>
-                                        <label> Case number: </label>
-                                    </div>
-                                    <div class='col-sm-2'>
-                                        <input type='text'class='form-control' name='caseno' value='$case' >
-                                    </div >
-                                    <div class='col-sm-4 form-group' >
-                                         <label> Gazette number: </label>
-                                    </div>
                                     <div class='col-sm-4'>
-                                        <input type='text'class='form-control' name='gnumber' >
-                                    </div >
+                                        <label> Case Number: </label>
+                                    </div>
+                                    <div class='col-sm-3'><b>
+                                        <input type='text' class='form-control' name='caseno' value='$case' readonly>
+                                        </b>
+                                    </div>
+                                </div>
+                                <br>
+                                <br>
+                                <div class='row'>
+                                    <div class='col-sm-4 form-group'>
+                                        <label> Check appropriately: </label>
+                                    </div>
+                                    <label class='col-sm-8'>
+                                        <div class='col-lg-12 checkbox' align='left'>
+                                            <label class='checkbox'><input type='checkbox' value='YES' name='form109' required>  <b> FORM 109</b> (SUMMONS FOR CONFIRMATION) </label>  <br>
+                                            <label class='checkbox'><input type='checkbox' value='YES' name='form9' required> <b>FORM 9</b> (AFFIDAVIT IN SUPPORT OF PETITION) </label> <br>
+                                            <label class='checkbox'><input type='checkbox' value='YES' name='form0' required> <b>FORM **</b> (CONSCENT TO MODE OF DISTRIBUTION) </label> <br>
+                                            <label><b>Any other(Specify)</b> <input type='text' name='other'>  </label>
+                                        </div>
 
-                                </div >
-                                <br ><br >
-                                <div class='row' >
-                                    <div class='col-sm-2 form-group' >
-                                        <label > Date of gazettement: </label >
-                                    </div >
+                                </div>
+                                    <div class='row' >
                                     <div class='col-sm-4' >
-                                        <input type = 'text'class='form-control' name = 'dateiss' value='$date'>
+                                        <label > Date of filing: </label >
+                                    </div >
+                                    <div class='col-sm-3' >
+                                        <input type = 'text' class='form-control' name = 'dateiss' value='$date'>
                                     </div >
                                 </div >
-                                <br >
-                                <div class=\"form-group\">
+                                <div class=\"form - group\">
                                 <div class='row'>
                                     <b><input type='text' value=\" $sub\" name=\"by\" hidden></b>
                                 </div>
 
+                            </div>  
+                                <br>
+
+                                <br>
+
+                                <div class=\"row\">
+                                        <div class=\"col-sm-7 form-group\">
+
+                                            <button type=\"submit\" class=\"btn btn-success\" name=\"submit\" > SUBMIT </button>
+                                        </div>
+                                        <div class=\"col-sm-1 form-group\">
+                                            <button type=\"reset\" class=\"btn btn-warning\" name=\"reset\" ><span class=\"glyphicon glyphicon-minus-sign\"></span> Reset </button>
+                                        </div>
+                                </div>
+
                             </div>
-
-                                <div class='row' >
-                                    <div class='col-sm-12' >
-                                        <div class='col-sm-6 form-group' >
-
-                                            <button type = 'submit' class='btn btn-success' name = 'submit' > CONFIRM </button >
-                                        </div >
-                                        <div class='col-sm-1 form-group' >
-                                            <button type = 'reset' class='btn btn-warning' name = 'reset' > Reset </button >
-                                        </div >
-                                    </div >
-                                </div >
-
-                            </div >
-                            </center >
-                        </form >
+                        </form>
                     </center >
                 </div >
         <!-- /. ROW-->

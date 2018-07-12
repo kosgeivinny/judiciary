@@ -81,10 +81,10 @@ $sub = $_SESSION['name'];
         <div class='container'>
 
                     <center>
-                        <form class='inline' role='form' action='govt_connect.php' method='POST' enctype='multipart/form-data'>
+                        <form class='inline' role='form' action='reg_connect.php' method='POST' enctype='multipart/form-data'>
                             <center>
                             <div class='col-sm-8' style='background-color:greenyellow'>
-                                <h4 align='center'> <b> <u>CONFIRM GAZETTE NOTICE RECEIVED</u> </b></h4>
+                                <h4 align='center'> <b> <u>CONFIRM NOTICE RECEIVED FROM PRINCIPAL REGISTRAR</u> </b></h4>
                                 <br>
                                 <br>
                                 <div class='row'>
@@ -95,17 +95,17 @@ $sub = $_SESSION['name'];
                                         <input type='text'class='form-control' name='caseno' value='$case' >
                                     </div >
                                     <div class='col-sm-4 form-group' >
-                                         <label> Gazette number: </label>
+                                         <label> Serial number: </label>
                                     </div>
                                     <div class='col-sm-4'>
-                                        <input type='text'class='form-control' name='gnumber' >
+                                        <input type='text'class='form-control' name='serial' >
                                     </div >
 
                                 </div >
                                 <br ><br >
                                 <div class='row' >
                                     <div class='col-sm-2 form-group' >
-                                        <label > Date of gazettement: </label >
+                                        <label > Date issued: </label >
                                     </div >
                                     <div class='col-sm-4' >
                                         <input type = 'text'class='form-control' name = 'dateiss' value='$date'>

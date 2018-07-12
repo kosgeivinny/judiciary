@@ -4,14 +4,15 @@ session_start();
 
 if (isset($_POST['submit'])){
     $caseno=$_POST['caseno'];
-    $number=$_POST['gnumber'];
-    $date=$_POST['dateiss'];
+    $issued=$_POST['issued'];
+    $date=$_POST['dateconf'];
+    $dateiss =$_POST['dateissued'];
     $by=$_POST['by'];
 
 
 
 
-    $not= "INSERT INTO government (Caseno, Gazette_no, Date_Issued, Receiver) VALUES ('$caseno', '$number', '$date', '$by')";
+    $not= "INSERT INTO certificate (Caseno, Issued_by, Date_Confirmation, Date_Issued, Receiver) VALUES ('$caseno', '$issued', '$date', '$dateiss', '$by')";
     $ton= mysqli_query($conn, $not);
     if (!$ton){
         die("Query failed" .mysqli_error($conn));
@@ -19,7 +20,7 @@ if (isset($_POST['submit'])){
     else {
 
         ?>
-        <script> alert("Notice received!!");
+        <script> alert("Certificate issued successfuly!!");
             window.location.assign('index.php');
         </script>
         <?php

@@ -67,6 +67,8 @@ $sub = $_SESSION['name'];
     if (isset($_POST['submit'])) {
         $case = $_POST['caseno'];
         $date = date("Y/m/d");
+        $expected = Date('Y/m/d', strtotime('+6 months'));
+
         echo "<div id='page-inner'>
         <div class='row'>
             <div class='col-md-12'>
@@ -81,10 +83,10 @@ $sub = $_SESSION['name'];
         <div class='container'>
 
                     <center>
-                        <form class='inline' role='form' action='govt_connect.php' method='POST' enctype='multipart/form-data'>
+                        <form class='inline' role='form' action='grant_connect.php' method='POST' enctype='multipart/form-data'>
                             <center>
                             <div class='col-sm-8' style='background-color:greenyellow'>
-                                <h4 align='center'> <b> <u>CONFIRM GAZETTE NOTICE RECEIVED</u> </b></h4>
+                                <h4 align='center'> <b> <u>CONFIRM ISSUANCE OF GRANT(FORM 41)</u> </b></h4>
                                 <br>
                                 <br>
                                 <div class='row'>
@@ -94,21 +96,36 @@ $sub = $_SESSION['name'];
                                     <div class='col-sm-2'>
                                         <input type='text'class='form-control' name='caseno' value='$case' >
                                     </div >
-                                    <div class='col-sm-4 form-group' >
-                                         <label> Gazette number: </label>
+                                    <div class='col-sm-3 form-group' >
+                                         <label> Grant issued by: </label>
                                     </div>
-                                    <div class='col-sm-4'>
-                                        <input type='text'class='form-control' name='gnumber' >
-                                    </div >
+                                    <div class='col-sm-4 form-group'>
+                                            <select class=\"form-control\" name=\"issued\">
+                                            <option> HON. CHARLES OBULUTSA </option>
+                                            <option> HON. NOOR MOHAMUD </option>
+                                            <option> HON. HARRISON BARASA </option>
+                                            <option> HON. STELLAH TELEWA </option>
+                                            <option> HON. EMILY KIGEN </option>
+                                            <option> HON. JUSTICE G.K. KIMONDO </option>
+                                            <option> HON. JUSTICE CECILIA GITHUA </option>
+                                            <option> HON. MILDRED MUNYEKENYE </option>
+                                        </select>
+                                    </div>
 
                                 </div >
-                                <br ><br >
+                                <br/>
                                 <div class='row' >
                                     <div class='col-sm-2 form-group' >
-                                        <label > Date of gazettement: </label >
+                                        <label > Date issued: </label >
                                     </div >
-                                    <div class='col-sm-4' >
+                                    <div class='col-sm-3' >
                                         <input type = 'text'class='form-control' name = 'dateiss' value='$date'>
+                                    </div >
+                                    <div class='col-sm-2 form-group' >
+                                        <label > Date Expected: </label >
+                                    </div >
+                                    <div class='col-sm-3' >
+                                        <input type = 'text'class='form-control' name = 'dateex' value='$expected'>
                                     </div >
                                 </div >
                                 <br >
@@ -132,7 +149,7 @@ $sub = $_SESSION['name'];
                                 </div >
 
                             </div >
-                            </center >
+                           </center >
                         </form >
                     </center >
                 </div >

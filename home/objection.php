@@ -81,40 +81,40 @@ $sub = $_SESSION['name'];
         <div class='container'>
 
                     <center>
-                        <form class='inline' role='form' action='govt_connect.php' method='POST' enctype='multipart/form-data'>
+                        <form class='inline' role='form' action='objection_connect.php' method='POST' enctype='multipart/form-data'>
                             <center>
-                            <div class='col-sm-8' style='background-color:greenyellow'>
-                                <h4 align='center'> <b> <u>CONFIRM GAZETTE NOTICE RECEIVED</u> </b></h4>
+                            <div class='col-sm-8' style='background-color:bisque'>
+                                <h4 align='center'> <b> <u>OBJECTION FILED</u> </b></h4>
                                 <br>
                                 <br>
                                 <div class='row'>
                                     <div class='col-sm-2 form-group'>
                                         <label> Case number: </label>
                                     </div>
-                                    <div class='col-sm-2'>
+                                    <div class='col-sm-3'>
                                         <input type='text'class='form-control' name='caseno' value='$case' >
                                     </div >
-                                    <div class='col-sm-4 form-group' >
-                                         <label> Gazette number: </label>
-                                    </div>
-                                    <div class='col-sm-4'>
-                                        <input type='text'class='form-control' name='gnumber' >
+                                    <div class='col-sm-2 form-group' >
+                                        <label > Date of objection: </label >
+                                    </div >
+                                    <div class='col-sm-3' >
+                                        <input type = 'text'class='form-control' name = 'dated' value='$date'>
                                     </div >
 
                                 </div >
                                 <br ><br >
                                 <div class='row' >
-                                    <div class='col-sm-2 form-group' >
-                                        <label > Date of gazettement: </label >
-                                    </div >
-                                    <div class='col-sm-4' >
-                                        <input type = 'text'class='form-control' name = 'dateiss' value='$date'>
-                                    </div >
+                                    <div class='col-sm-2 form-group'>
+                                     <label> Reason for Objection: </label>
+                                     </div>
+                                     <div class='col-sm-8'>
+                                        <textarea style='height:200px; width:500px;' class='col-sm-8 form-control' name='reason' placeholder='Explanation of the objection'> </textarea>
+                                     </div>
                                 </div >
                                 <br >
                                 <div class=\"form-group\">
                                 <div class='row'>
-                                    <b><input type='text' value=\" $sub\" name=\"by\" hidden></b>
+                                    <b><input type='text' value='$sub' name='by' hidden></b>
                                 </div>
 
                             </div>
@@ -240,6 +240,7 @@ $sub = $_SESSION['name'];
         </div>
     </div>
 </footer>
+
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->

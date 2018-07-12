@@ -61,13 +61,13 @@ $sub = $_SESSION['name'];
 
 <div class="container">
 
-    <?php
+<?php
 
-    include "connect.php";
-    if (isset($_POST['submit'])) {
-        $case = $_POST['caseno'];
-        $date = date("Y/m/d");
-        echo "<div id='page-inner'>
+include "connect.php";
+if (isset($_POST['submit'])) {
+    $case = $_POST['caseno'];
+    $date = date("Y/m/d");
+    echo "<div id='page-inner'>
         <div class='row'>
             <div class='col-md-12'>
                 <h3 align='center'> REPUBLIC OF KENYA <BR>
@@ -81,34 +81,33 @@ $sub = $_SESSION['name'];
         <div class='container'>
 
                     <center>
-                        <form class='inline' role='form' action='govt_connect.php' method='POST' enctype='multipart/form-data'>
+                        <form class='inline' role='form' action='not_connect.php' method='POST' enctype='multipart/form-data'>
                             <center>
                             <div class='col-sm-8' style='background-color:greenyellow'>
-                                <h4 align='center'> <b> <u>CONFIRM GAZETTE NOTICE RECEIVED</u> </b></h4>
+                                <h4 align='center'> <b> <u>CONFIRM NOTICE SENT TO GOVERNMENT PRINTERS</u> </b></h4>
                                 <br>
                                 <br>
                                 <div class='row'>
                                     <div class='col-sm-2 form-group'>
                                         <label> Case number: </label>
                                     </div>
-                                    <div class='col-sm-2'>
+                                    <div class='col-sm-3'>
                                         <input type='text'class='form-control' name='caseno' value='$case' >
                                     </div >
-                                    <div class='col-sm-4 form-group' >
-                                         <label> Gazette number: </label>
-                                    </div>
-                                    <div class='col-sm-4'>
-                                        <input type='text'class='form-control' name='gnumber' >
+                                    <div class='col-sm-3 form-group' >
+
+                                        <label class='checkbox' >&nbsp;&nbsp;Notices sent ?&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <input type = 'checkbox' value = 'YES' name = 'notice' required > Yes</label >
+
                                     </div >
 
                                 </div >
                                 <br ><br >
                                 <div class='row' >
                                     <div class='col-sm-2 form-group' >
-                                        <label > Date of gazettement: </label >
+                                        <label > Date sent: </label >
                                     </div >
-                                    <div class='col-sm-4' >
-                                        <input type = 'text'class='form-control' name = 'dateiss' value='$date'>
+                                    <div class='col-sm-3' >
+                                        <input type = 'text'class='form-control' name = 'start' value='$date'>
                                     </div >
                                 </div >
                                 <br >
@@ -240,6 +239,7 @@ $sub = $_SESSION['name'];
         </div>
     </div>
 </footer>
+
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->

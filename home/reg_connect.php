@@ -4,14 +4,14 @@ session_start();
 
 if (isset($_POST['submit'])){
     $caseno=$_POST['caseno'];
-    $number=$_POST['gnumber'];
+    $serial=$_POST['serial'];
     $date=$_POST['dateiss'];
     $by=$_POST['by'];
 
 
 
 
-    $not= "INSERT INTO government (Caseno, Gazette_no, Date_Issued, Receiver) VALUES ('$caseno', '$number', '$date', '$by')";
+    $not= "INSERT INTO registrar (Caseno, Serial, Date_Issued, Receiver) VALUES ('$caseno', '$serial', '$date', '$by')";
     $ton= mysqli_query($conn, $not);
     if (!$ton){
         die("Query failed" .mysqli_error($conn));

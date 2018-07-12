@@ -46,7 +46,7 @@ include '../../judiciary/log_connect.php';
                 <li role="presentation" class="active"><a href="index.php">Home</a></li>
                 <li role="presentation"><a href="register.php">Registration</a></li>
                 <li role="presentation"><a href="#">Courts</a></li>
-                <li role="presentation"><a href="#">Cases</a></li>
+                <li role="presentation"><a href="report.php">Reports</a></li>
                 <li role="presentation"><a href="about.php">About</a></li>
                 <li role="presentation"><a href="contacts.php">Contact</a></li>
                   <img src="img/arms.jpg" style="width: 20%; max-width: 60px; margin: 0 auto;">

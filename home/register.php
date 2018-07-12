@@ -1,6 +1,8 @@
 <?php
 include '../../judiciary/log_connect.php';
 
+$date = date("Y/m/d");
+$sub = $_SESSION['name'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -46,7 +48,7 @@ include '../../judiciary/log_connect.php';
                             <li role="presentation"><a href="index.php">Home</a></li>
                             <li role="presentation" class="active"><a href="register.php">Registration</a></li>
                             <li role="presentation"><a href="#">Courts</a></li>
-                            <li role="presentation"><a href="#">Cases</a></li>
+                            <li role="presentation"><a href="report.php">Reports</a></li>
                             <li role="presentation"><a href="about.php">About</a></li>
                             <li role="presentation"><a href="contacts.php">Contact</a></li>
                             <img src="img/arms.jpg" style="width: 20%; max-width: 60px; margin: 0 auto;">
@@ -72,7 +74,7 @@ include '../../judiciary/log_connect.php';
 
         <div class="container">
 
-            <div class="col-lg-8 well">
+            <div class="col-lg-8 well" style="background-color: #d2ee4a">
                 <div class="row">
                     <center>
                     <form class="inline" role="form" action="register_connect.php" method="POST" enctype="multipart/form-data">
@@ -85,13 +87,13 @@ include '../../judiciary/log_connect.php';
                                     <label> Case number: </label>
                                 </div>
                                 <div class="col-sm-4">
-                                    <input type="text"class="form-control" name="caseno" placeholder="Case Number">
+                                    <input type="text"class="form-control" name="caseno" placeholder="P&A" required>
                                 </div>
                                 <div class="col-sm-2 form-group">
                                     <label> Deceased: </label>
                                 </div>
                                 <div class="col-sm-4">
-                                    <input type="text"class="form-control" name="deceased" placeholder="Deceased Name">
+                                    <input type="text"class="form-control" name="deceased" placeholder="Deceased Name" required>
                                 </div>
 
                             </div>
@@ -101,9 +103,13 @@ include '../../judiciary/log_connect.php';
                                     <label> Petitioners: </label>
                                 </div>
                                 <div class="col-sm-4">
-                                    <input type="text"class="form-control" name="petitioner1" placeholder="1">
+                                    <input type="text"class="form-control" name="petitioner1" placeholder="1" required>
                                     <br>
                                     <input type="text"class="form-control" name="petitioner2" placeholder="2">
+                                    <br>
+                                    <input type="text"class="form-control" name="petitioner3" placeholder="3">
+                                    <br>
+                                    <input type="text"class="form-control" name="petitioner4" placeholder="4">
                                 </div>
                                 <br>
 
@@ -111,10 +117,16 @@ include '../../judiciary/log_connect.php';
                                     <label> Date: </label>
                                 </div>
                                 <div class="col-sm-4">
-                                    <input type="text"class="form-control" name="date" placeholder="yyyy/mm/dd">
+                                    <input type="text"class="form-control" name="date" value="<?php echo $date; ?>">
                                 </div>
                             </div>
                             <br>
+                            <div class="form-group">
+                                <div class='row'>
+                                    <b><input type='text' value="<?php echo $sub; ?>" name="by" hidden></b>
+                                </div>
+
+                            </div>
 
                         <div class="row">
                             <div class="col-sm-12">
