@@ -45,7 +45,7 @@ include '../../judiciary/log_connect.php';
                             <li>  &nbsp;&nbsp;</li>
                             <li role="presentation"><a href="index.php">Home</a></li>
                             <li role="presentation"><a href="register.php">Registration</a></li>
-                            <li role="presentation"><a href="#">Courts</a></li>
+                            <li role="presentation"><a href="cases.php">Cases</a></li>
                             <li role="presentation" class="active"><a href="report.php">Reports</a></li>
                             <li role="presentation"><a href="about.php">About</a></li>
                             <li role="presentation"><a href="contacts.php">Contact</a></li>
@@ -63,15 +63,18 @@ include '../../judiciary/log_connect.php';
         <table>
             <form method='post' action='report.php'>
                <td>
-                        <button type="submit" class="btn btn-success" name="object" style='background-color: black; padding: 10px; margin: 4px 2px;  border-radius: 12px;'> <b> Awaiting Grant </b> </button></td>
+                        <button type="submit" class="btn btn-success" name="object" style='background-color: red; padding: 10px; margin: 4px 2px;  border-radius: 12px;'> <b> Cases with Objection </b> </button></td>
             </form>
-            <form method='post' action='govt.php'>
+            <form method='post' action='report.php'>
 
-            <td><label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label><button type="submit" class="btn btn-success" name="submit" style='background-color: blue; padding: 10px; margin: 4px 2px; border-radius: 12px;'> <b> Awaiting Filing </b> </button></td>
+            <td><label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label><button type="submit" class="btn btn-success" name="gra" style='background-color: blue; padding: 10px; margin: 4px 2px; border-radius: 12px;'> <b> Awaiting Grant </b> </button></td>
             </form>
-            <form method='post' action='govt.php'>
+            <form method='post' action='report.php'>
+                <td><label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label><button type="submit" class="btn btn-success" name="fil" style='background-color: blue; padding: 10px; margin: 4px 2px; border-radius: 12px;'> <b> Awaiting Filing Summons for Confirmation </b> </button></td>
+            </form>
+            <form method='post' action='report.php'>
 
-            <td><label>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><button type="submit" class="btn btn-success" name="submit" style='background-color: sandybrown; padding: 10px; margin: 4px 2px; border-radius: 12px;'> <b> Awaiting Confirmation </b> </button></td>
+            <td><label>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><button type="submit" class="btn btn-success" name="conf" style='background-color: sandybrown; padding: 10px; margin: 4px 2px; border-radius: 12px;'> <b> Awaiting Confirmation </b> </button></td>
                 </tr>
             </form>
 </table>
@@ -85,33 +88,109 @@ include '../../judiciary/log_connect.php';
 </div>
 <div class="container">
     <?php
-    include "connect.php";
 
-    if (isset($_POST['submit'])){
+     include "connect.php";
 
-        $reg = "SELECT * FROM registration";
-        $ger = mysqli_query($conn, $reg);
-    }
+
+
     if (isset($_POST['object'])){
         $obj = "SELECT * FROM objection";
         $jbo = mysqli_query($conn, $obj);
 
         echo "<center><table class='table table-bordered' cellspacing='15px' border='0px' style='width:980px;height:auto;'>
-    <thead> 
-    <tr class='info'><th>Case number</th><th>Reason for Objection</th><th>Date of Objection</th><th></th></tr></thead>";
+    <thead>
+    <tr><label>Cases with Objection</label></tr> 
+    <tr class='info'><th>Case number</th><th>Filed by:</th><th>Date of Objection</th></tr></thead>";
 
         while($row =mysqli_fetch_assoc($jbo)) {
-            echo "<tr><td>". $row["Caseno"] . "</td><td>". $row["Cause"]."</td><td>".$row["Date"]."</td>";
-            echo "<td><a href='obj_edit.php? adm_no=".$row['Caseno']."'>
-        <button class=\"btn btn-warning\"><span class=\"glyphicon glyphicon-edit\">Edit</span></button>
-        </a>
-        <a href='obj_delete.php? adm_no=".$row['Caseno']."'><br><br>
-        <button class=\"btn btn-danger\"><span class=\"glyphicon glyphicon-delete\">Delete</span></button></a>
-        </td></tr>";
+            echo "<tr><td>". $row["Caseno"] . "</td><td>". $row["P1"]."<br>". $row["P2"]."<br>". $row["P3"]."<br>". $row["P4"]."</td><td>".$row["Date"]."</td>";
+            echo "</tr>";
         }
         echo "</table></center>";
     }
 
+
+
+
+
+    if (isset($_POST['gra'])){
+        $obj = "SELECT * FROM counter WHERE Caseno NOT IN (SELECT Caseno FROM grantt)";
+        $jbo = mysqli_query($conn, $obj);
+        $nomr = mysqli_num_rows($jbo);
+    if ($nomr > 0){
+
+        echo "<center><table class='table table-bordered' cellspacing='15px' border='0px' style='width:980px;height:auto;'>
+    <thead>
+    <tr><label>Cases Awaiting Grant Issuance</label></tr> 
+    <tr class='info'><th>Case number</th><th>All Notices Received on</th><th>Date of Grant Issue</th></tr></thead>";
+
+        while($row =mysqli_fetch_assoc($jbo)) {
+            echo "<tr><td>". $row["Caseno"] . "</td><td>". $row["Date_Received"]."</td><td>".$row["Date_Expected"]."</td>";
+            echo "</tr>";
+        }
+        echo "</table></center>";
+            }
+    else{
+        ?>
+        <script> alert("No Case Awaiting Grant Issue!");
+            window.location.assign('report.php');
+        </script>
+        <?php
+        }
+    }
+
+    if (isset($_POST['fil'])){
+        $obj = "SELECT * FROM grantt WHERE Caseno NOT IN (SELECT Caseno FROM confirmation)";
+        $jbo = mysqli_query($conn, $obj);
+        $nomr = mysqli_num_rows($jbo);
+        if ($nomr > 0){
+
+            echo "<center><table class='table table-bordered' cellspacing='15px' border='0px' style='width:980px;height:auto;'>
+    <thead>
+    <tr><label>Cases Awaiting Filing Summons for Confirmation</label></tr> 
+    <tr class='info'><th>Case number</th><th>Grant Issued by:</th><th>Date Issued</th><th>Date of Filing</th></tr></thead>";
+
+            while($row =mysqli_fetch_assoc($jbo)) {
+                echo "<tr><td>". $row["Caseno"] . "</td><td>". $row["Issued_by"]."</td><td>".$row["Date_Issued"]."</td><td>".$row["Date_Expected"]."</td>";
+                echo "</tr>";
+            }
+            echo "</table></center>";
+        }
+        else{
+            ?>
+            <script> alert("No Case Awaiting Filling!");
+                window.location.assign('report.php');
+            </script>
+            <?php
+        }
+    }
+
+
+    if (isset($_POST['conf'])){
+        $obj = "SELECT * FROM confirmation  WHERE Caseno NOT IN (SELECT Caseno FROM certificate)";
+        $jbo = mysqli_query($conn, $obj);
+        $nomr = mysqli_num_rows($jbo);
+        if ($nomr > 0){
+
+            echo "<center><table class='table table-bordered' cellspacing='15px' border='0px' style='width:980px;height:auto;'>
+    <thead>
+    <tr><label>Cases Awaiting Confirmation</label></tr> 
+    <tr class='info'><th>Case number</th><th>Filing done by:</th><th>Date of Filing</th><th>Date of Confirmation</th></tr></thead>";
+
+            while($row =mysqli_fetch_assoc($jbo)) {
+                echo "<tr><td>". $row["Caseno"] . "</td><td>". $row["Receiver"]."</td><td>".$row["Date_Filed"]."</td><td>".$row["Date_Confirmation"]."</td>";
+                echo "</tr>";
+            }
+            echo "</table></center>";
+        }
+        else{
+            ?>
+            <script> alert("No Case Awaiting Confirmation!");
+                window.location.assign('report.php');
+            </script>
+            <?php
+        }
+    }
     ?>
 </div>
 <div class="container">

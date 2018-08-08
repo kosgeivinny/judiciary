@@ -5,10 +5,16 @@ session_start();
 if (isset($_POST['submit'])){
     $casen=$_POST['caseno'];
     $date=$_POST['dated'];
-    $cause=$_POST['reason'];
+    $p1=$_POST['p1'];
+    $p2=$_POST['p2'];
+    $p2=$_POST['p3'];
+    $p4=$_POST['p4'];
+    $filee=$_POST['filee'];
+    $contact=$_POST['contact'];
+    $address=$_POST['address'];
     $by=$_POST['by'];
 
-    $ins = "INSERT INTO objection(Caseno, Date, Cause, Sent ) VALUES ('$casen', '$date', '$cause', '$by')";
+    $ins = "INSERT INTO objection(Caseno, Date, P1, P2, P3, P4, Filee, Contact, Address, Sent ) VALUES ('$casen', '$date', '$p1', '$p2', '$p3', '$p4', '$filee', '$contact', '$address', '$by')";
     $in = mysqli_query($conn, $ins);
 
     if(!$in){
@@ -27,7 +33,7 @@ if (isset($_POST['submit'])){
 
             ?>
             <script> alert("Case terminated!!");
-                window.location.assign('index.php');
+                window.location.assign('case_reg.php');
             </script>
             <?php
 

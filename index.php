@@ -51,7 +51,6 @@
                         <button class="login100-form-btn " name="login">
                             Login
                         </button>
-                        <a href="sign_up.php" class="login100-form-btn "> Sign up </a>
 					</div>
 
 				</form>

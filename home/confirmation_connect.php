@@ -9,12 +9,13 @@ if (isset($_POST['submit'])){
     $form0=$_POST['form0'];
     $other=$_POST['other'];
     $dateiss=$_POST['dateiss'];
+    $dateconf=$_POST['dateconf'];
     $by=$_POST['by'];
 
 
 
 
-    $not= "INSERT INTO confirmation (Caseno, Form109, Form9, Form0, Other, Date_Filed, Receiver) VALUES ('$caseno', '$form109', '$form9', '$form0', '$other', '$dateiss', '$by')";
+    $not= "INSERT INTO confirmation (Caseno, Form109, Form9, Form0, Other, Date_Filed,Date_Confirmation, Receiver) VALUES ('$caseno', '$form109', '$form9', '$form0', '$other', '$dateiss', '$dateconf', '$by')";
     $ton= mysqli_query($conn, $not);
     if (!$ton){
         die("Query failed" .mysqli_error($conn));

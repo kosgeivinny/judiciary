@@ -1,5 +1,10 @@
 <?php
 include '../../judiciary/log_connect.php';
+if (!isset($_SESSION['name']))
+{
+    header("Location: ../index.php");
+    die();
+}
 
 ?>
 <!DOCTYPE html>
@@ -45,7 +50,7 @@ include '../../judiciary/log_connect.php';
                   <li>  &nbsp;&nbsp;</li>
                 <li role="presentation" class="active"><a href="index.php">Home</a></li>
                 <li role="presentation"><a href="register.php">Registration</a></li>
-                <li role="presentation"><a href="#">Courts</a></li>
+                <li role="presentation"><a href="cases.php">Cases</a></li>
                 <li role="presentation"><a href="report.php">Reports</a></li>
                 <li role="presentation"><a href="about.php">About</a></li>
                 <li role="presentation"><a href="contacts.php">Contact</a></li>

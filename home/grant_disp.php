@@ -81,10 +81,10 @@ $sub = $_SESSION['name'];
         <div class='container'>
 
                     <center>
-                        <form class='inline' role='form' action='objection_connect.php' method='POST' enctype='multipart/form-data'>
+                        <form class='inline' role='form' action='grant_disp_connect.php' method='POST' enctype='multipart/form-data'>
                             <center>
-                            <div class='col-sm-8' style='background-color:bisque'>
-                                <h4 align='center'> <b> <u>OBJECTION FILED</u> </b></h4>
+                            <div class='col-sm-8' style='background-color:greenyellow'>
+                                <h4 align='center'> <b> <u>CONFIRM GRANT(FORM41) DISPATCH</u> </b></h4>
                                 <br>
                                 <br>
                                 <div class='row'>
@@ -94,45 +94,33 @@ $sub = $_SESSION['name'];
                                     <div class='col-sm-3'>
                                         <input type='text'class='form-control' name='caseno' value='$case' >
                                     </div >
-                                    <div class='col-sm-2 form-group' >
-                                        <label > Date of objection: </label >
+                                     <div class='col-sm-2 form-group'>
+                                        <label> Date Dispatched: </label>
+                                    </div>
+                                    <div class='col-sm-3'>
+                                        <input type='date' class='form-control' name='date'>
                                     </div >
-                                    <div class='col-sm-3' >
-                                        <input type = 'text'class='form-control' name = 'dated' value='$date'>
-                                    </div >
-
+                                    
                                 </div >
                                 <br ><br >
                                 <div class='row' >
-                                    <div class=\"col-sm-2 form-group\">
-                                    <label> Filed by: </label>
-                                    </div>
-                                    <div class=\"col-sm-4\">
-                                    <input type=\"text\"class=\"form-control\" name=\"p1\" placeholder=\"1\" required>
-                                    <br>
-                                    <input type=\"text\"class=\"form-control\" name=\"p2\" placeholder=\"2\">
-                                    <br>
-                                    <input type=\"text\"class=\"form-control\" name=\"p3\" placeholder=\"3\">
-                                    <br>
-                                    <input type=\"text\"class=\"form-control\" name=\"p4\" placeholder=\"4\">
-                                    </div>
-                                    <div class='col-sm-4'>
-                                    <label class='radio-inline'><input type=\"radio\" name=\"filee\" checked>In person</label>
-                                    <label class='radio-inline'><input type=\"radio\" name=\"filee\">Law Firm</label>
-                                    <br>
-                                    <label> Contact: </label>
-                                    <input type='text' name='contact' class='form-control'>
-                                    <br>
-                                    <label> Address: </label>
-                                    <input type='text' name='address' class='form-control'>
-                                    </div>
-                                                             
-                               
+                                    <div class='col-sm-2 form-group' >
+                                        <label > Collected by: </label >
+                                    </div >
+                                    <div class='col-sm-3' >
+                                        <input type = 'text' class='form-control' name = 'collector'>
+                                    </div >
+                                    <div class='col-sm-2 form-group' >
+                                        <label >ID Number: </label >
+                                    </div >
+                                    <div class='col-sm-3' >
+                                        <input type = 'text' class='form-control' name = 'id'>
+                                    </div >
                                 </div >
                                 <br >
                                 <div class=\"form-group\">
                                 <div class='row'>
-                                    <b><input type='text' value='$sub' name='by' hidden></b>
+                                    <b><input type='text' value=\" $sub\" name=\"by\" hidden></b>
                                 </div>
 
                             </div>
@@ -184,7 +172,7 @@ $sub = $_SESSION['name'];
                               Licensing information: https://bootstrapmade.com/license/
                               Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Arsha
                             -->
-                            <a href="https://bootstrapmade.com/"> P & A</a> by <a href="https://bootstrapmade.com/">ICT TEAM</a>
+                            <a href="https://bootstrapmade.com/"> P & A </a> by <a href="https://bootstrapmade.com/">ICT TEAM</a>
                         </div>
                     </div>
                 </div>

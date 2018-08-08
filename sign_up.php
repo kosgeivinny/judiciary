@@ -32,8 +32,8 @@
                             <input name="name" required="required" type="text" placeholder="Name" />
                         </p>
                         <p>
-                            <label>ID Number:</label>
-                            <input name="id" required="required" type="int" placeholder="National ID" />
+                            <label>PJ Number:</label>
+                            <input name="id" required="required" type="int" placeholder="PJ Number" />
                         </p>
                         <p>
                             <label> Your email:</label>
@@ -50,10 +50,6 @@
                         </p>
                         <p class="signin button">
                             <input type="submit" name="submit" value="Sign up"/>
-                        </p>
-                        <p class="change_link">
-                            Already registered ?
-                            <a href="../judiciary" class="to_register"> Go and log in </a>
                         </p>
                     </form>
                 </div>

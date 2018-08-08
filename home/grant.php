@@ -46,7 +46,7 @@ $sub = $_SESSION['name'];
                             <li>  &nbsp;&nbsp;</li>
                             <li role="presentation" class="active"><a href="index.php">Home</a></li>
                             <li role="presentation"><a href="register.php">Registration</a></li>
-                            <li role="presentation"><a href="#">Courts</a></li>
+                            <li role="presentation"><a href="cases.php">Cases</a></li>
                             <li role="presentation"><a href="report.php">Reports</a></li>
                             <li role="presentation"><a href="about.php">About</a></li>
                             <li role="presentation"><a href="contacts.php">Contact</a></li>
@@ -67,7 +67,6 @@ $sub = $_SESSION['name'];
     if (isset($_POST['submit'])) {
         $case = $_POST['caseno'];
         $date = date("Y/m/d");
-        $expected = Date('Y/m/d', strtotime('+6 months'));
 
         echo "<div id='page-inner'>
         <div class='row'>
@@ -121,12 +120,7 @@ $sub = $_SESSION['name'];
                                     <div class='col-sm-3' >
                                         <input type = 'text'class='form-control' name = 'dateiss' value='$date'>
                                     </div >
-                                    <div class='col-sm-2 form-group' >
-                                        <label > Date Expected: </label >
-                                    </div >
-                                    <div class='col-sm-3' >
-                                        <input type = 'text'class='form-control' name = 'dateex' value='$expected'>
-                                    </div >
+                                   
                                 </div >
                                 <br >
                                 <div class=\"form-group\">
@@ -161,64 +155,7 @@ $sub = $_SESSION['name'];
     }?>
 </div>
 
-<div class="container">
-    <div class="row">
-        <hr>
-    </div>
-</div>
-
 <footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3">
-                <div class="widget">
-                    <h5 class="widgetheading">Get in touch with us</h5>
-                    <address>
-                        <strong>Arsha company Inc</strong><br>
-                        Modernbuilding suite V124, AB 01<br>
-                        Someplace 16425 Earth
-                    </address>
-                    <p>
-                        <i class="icon-phone"></i> (123) 456-7890 - (123) 555-7891 <br>
-                        <i class="icon-envelope-alt"></i> email@domainname.com
-                    </p>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="widget">
-                    <h5 class="widgetheading">Pages</h5>
-                    <ul class="link-list">
-                        <li><a href="#">Press release</a></li>
-                        <li><a href="#">Terms and conditions</a></li>
-                        <li><a href="#">Privacy policy</a></li>
-                        <li><a href="#">Career center</a></li>
-                        <li><a href="#">Contact us</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="widget">
-                    <h5 class="widgetheading">Latest posts</h5>
-                    <ul class="link-list">
-                        <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-                        <li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
-                        <li><a href="#">Natus error sit voluptatem accusantium doloremque</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="widget">
-                    <h5 class="widgetheading">Flickr photostream</h5>
-                    <div class="flickr_badge">
-                        <script type="text/javascript" src="https://www.flickr.com/badge_code_v2.gne?count=8&amp;display=random&amp;size=s&amp;layout=x&amp;source=user&amp;user=34178660@N03"></script>
-                    </div>
-                    <div class="clear">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <div class="container">
         <div class="row">
             <hr>
@@ -231,7 +168,7 @@ $sub = $_SESSION['name'];
                 <div class="col-lg-6">
                     <div class="copyright">
                         <p>
-                            <span>&copy; Arsha, All right reserved.</span>
+                            <span>&copy; Eldoret Law Courts, All right reserved.</span>
                         </p>
                         <div class="credits">
                             <!--
@@ -240,7 +177,7 @@ $sub = $_SESSION['name'];
                               Licensing information: https://bootstrapmade.com/license/
                               Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Arsha
                             -->
-                            <a href="https://bootstrapmade.com/">Bootstrap Templates</a> by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                            <a href="https://bootstrapmade.com/"> P & A </a> by <a href="https://bootstrapmade.com/">ICT TEAM</a>
                         </div>
                     </div>
                 </div>

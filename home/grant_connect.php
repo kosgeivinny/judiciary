@@ -6,7 +6,7 @@ if (isset($_POST['submit'])){
     $caseno=$_POST['caseno'];
     $issued=$_POST['issued'];
     $date=$_POST['dateiss'];
-    $expected =$_POST['dateex'];
+    $expected =Date('Y/m/d', strtotime($date.'+6 months'));;
     $by=$_POST['by'];
 
 

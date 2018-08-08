@@ -2,26 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="907d555c-407d-4c4e-accf-4e33a5dafbab" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/home/certificate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/certificate_connect.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/confirmation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/confirmation_connect.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/grant.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/grant_connect.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/objection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/objection_connect.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/report.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/case_amend.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/case_amend_connect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/case_reg.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/case_reg_connect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/cases.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/cert_disp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/cert_disp_connect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/grant_disp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/grant_disp_connect.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/home/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/certificate.php" beforeDir="false" afterPath="$PROJECT_DIR$/home/certificate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/confirmation.php" beforeDir="false" afterPath="$PROJECT_DIR$/home/confirmation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/confirmation_connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/home/confirmation_connect.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/contacts.php" beforeDir="false" afterPath="$PROJECT_DIR$/home/contacts.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/govt.php" beforeDir="false" afterPath="$PROJECT_DIR$/home/govt.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/govt_connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/home/govt_connect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/grant.php" beforeDir="false" afterPath="$PROJECT_DIR$/home/grant.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/grant_connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/home/grant_connect.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/home/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/not.php" beforeDir="false" afterPath="$PROJECT_DIR$/home/not.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/notices.php" beforeDir="false" afterPath="$PROJECT_DIR$/home/notices.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/notices_connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/home/notices_connect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/objection.php" beforeDir="false" afterPath="$PROJECT_DIR$/home/objection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/objection_connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/home/objection_connect.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/payment.php" beforeDir="false" afterPath="$PROJECT_DIR$/home/payment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/reg.php" beforeDir="false" afterPath="$PROJECT_DIR$/home/reg.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/reg_connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/home/reg_connect.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/home/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/register_connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/home/register_connect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/report.php" beforeDir="false" afterPath="$PROJECT_DIR$/home/report.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/home/search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sign_up.php" beforeDir="false" afterPath="$PROJECT_DIR$/sign_up.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,83 +45,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="search.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home/search.php">
+      <file leaf-file-name="certificate.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/home/certificate.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="111" column="33" lean-forward="true" selection-start-line="90" selection-start-column="8" selection-end-line="111" selection-end-column="33" />
-              <folding>
-                <element signature="n#style#0;n#table#0;n#center#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#table#0;n#center#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="objection.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home/objection.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="85" column="80" selection-start-line="85" selection-start-column="80" selection-end-line="85" selection-end-column="80" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#center#0;n#form#0;n#center#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#center#0;n#form#0;n#center#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#textarea#0;n#div#0;n#div#1;n#div#0;n#center#0;n#form#0;n#center#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#textarea#0;n#div#0;n#div#1;n#div#0;n#center#0;n#form#0;n#center#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="objection_connect.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home/objection_connect.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="not.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home/not.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="98" column="122" selection-start-line="98" selection-start-column="116" selection-end-line="98" selection-end-column="122" />
-              <folding>
-                <element signature="e#1457#1463#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="not_connect.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home/not_connect.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="report.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/home/report.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="99" column="11" lean-forward="true" selection-start-line="99" selection-start-column="11" selection-end-line="99" selection-end-column="11" />
-              <folding>
-                <element signature="n#style#0;n#button#0;n#td#0;n#form#0;n#table#0;n#center#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#2952#2958#0#HTML" expanded="true" />
-                <element signature="e#2958#2964#0#HTML" expanded="true" />
-                <element signature="e#2964#2970#0#HTML" expanded="true" />
-                <element signature="e#2970#2976#0#HTML" expanded="true" />
-                <element signature="e#2976#2982#0#HTML" expanded="true" />
-                <element signature="e#2982#2988#0#HTML" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#td#0;n#form#1;n#table#0;n#center#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#3216#3222#0#HTML" expanded="true" />
-                <element signature="e#3222#3228#0#HTML" expanded="true" />
-                <element signature="e#3228#3234#0#HTML" expanded="true" />
-                <element signature="e#3234#3240#0#HTML" expanded="true" />
-                <element signature="e#3240#3246#0#HTML" expanded="true" />
-                <element signature="e#3246#3252#0#HTML" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#td#0;n#form#2;n#table#0;n#center#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="390">
+              <caret line="163" selection-start-line="163" selection-end-line="163" />
             </state>
           </provider>
         </entry>
@@ -137,51 +78,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/portfolio.php" />
-        <option value="$PROJECT_DIR$/connect.php" />
-        <option value="$PROJECT_DIR$/register_connect.php" />
-        <option value="$PROJECT_DIR$/notices_connect.php" />
-        <option value="$PROJECT_DIR$/payment_connect.php" />
-        <option value="$PROJECT_DIR$/search.php" />
-        <option value="$PROJECT_DIR$/register.php" />
-        <option value="$PROJECT_DIR$/notices.php" />
-        <option value="$PROJECT_DIR$/payment.php" />
-        <option value="$PROJECT_DIR$/about.php" />
         <option value="$PROJECT_DIR$/contacts.php" />
         <option value="$PROJECT_DIR$/css/bootstrap-theme.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/home/css/style.css" />
         <option value="$PROJECT_DIR$/home/payment_connect.php" />
-        <option value="$PROJECT_DIR$/sign_up.php" />
         <option value="$PROJECT_DIR$/vendor/custom.css" />
         <option value="$PROJECT_DIR$/sign_connect.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/home/logout.php" />
-        <option value="$PROJECT_DIR$/log_connect.php" />
         <option value="$PROJECT_DIR$/home/recv_connect.php" />
-        <option value="$PROJECT_DIR$/home/register_connect.php" />
         <option value="$PROJECT_DIR$/home/recv.php" />
+        <option value="$PROJECT_DIR$/home/confirmation_connect.php" />
+        <option value="$PROJECT_DIR$/home/certificate_connect.php" />
+        <option value="$PROJECT_DIR$/log_connect.php" />
+        <option value="$PROJECT_DIR$/home/notices_connect.php" />
+        <option value="$PROJECT_DIR$/home/register_connect.php" />
         <option value="$PROJECT_DIR$/home/reg_connect.php" />
         <option value="$PROJECT_DIR$/home/govt_connect.php" />
         <option value="$PROJECT_DIR$/home/grant_connect.php" />
-        <option value="$PROJECT_DIR$/home/confirmation_connect.php" />
-        <option value="$PROJECT_DIR$/home/certificate_connect.php" />
-        <option value="$PROJECT_DIR$/home/certificate.php" />
-        <option value="$PROJECT_DIR$/home/about.php" />
-        <option value="$PROJECT_DIR$/home/confirmation.php" />
-        <option value="$PROJECT_DIR$/home/contacts.php" />
-        <option value="$PROJECT_DIR$/home/govt.php" />
-        <option value="$PROJECT_DIR$/home/grant.php" />
-        <option value="$PROJECT_DIR$/home/not.php" />
-        <option value="$PROJECT_DIR$/home/notices.php" />
-        <option value="$PROJECT_DIR$/home/payment.php" />
-        <option value="$PROJECT_DIR$/home/reg.php" />
-        <option value="$PROJECT_DIR$/home/register.php" />
+        <option value="$PROJECT_DIR$/clerk/connect.php" />
+        <option value="$PROJECT_DIR$/clerk/register_connect.php" />
+        <option value="$PROJECT_DIR$/clerk/dashboard.php" />
         <option value="$PROJECT_DIR$/home/index.php" />
-        <option value="$PROJECT_DIR$/home/objection.php" />
+        <option value="$PROJECT_DIR$/clerk/register.php" />
         <option value="$PROJECT_DIR$/home/objection_connect.php" />
+        <option value="$PROJECT_DIR$/home/case_reg.php" />
+        <option value="$PROJECT_DIR$/home/case_reg_connect.php" />
+        <option value="$PROJECT_DIR$/home/case_amend.php" />
+        <option value="$PROJECT_DIR$/home/case_amend_connect.php" />
+        <option value="$PROJECT_DIR$/sign_up.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/home/cases.php" />
+        <option value="$PROJECT_DIR$/home/amend_connect.php" />
+        <option value="$PROJECT_DIR$/home/grant_disp_connect.php" />
+        <option value="$PROJECT_DIR$/home/cert_disp_connect.php" />
         <option value="$PROJECT_DIR$/home/search.php" />
         <option value="$PROJECT_DIR$/home/report.php" />
+        <option value="$PROJECT_DIR$/home/about.php" />
+        <option value="$PROJECT_DIR$/home/amend.php" />
+        <option value="$PROJECT_DIR$/home/cert_disp.php" />
+        <option value="$PROJECT_DIR$/home/register.php" />
+        <option value="$PROJECT_DIR$/home/reg.php" />
+        <option value="$PROJECT_DIR$/home/payment.php" />
+        <option value="$PROJECT_DIR$/home/objection.php" />
+        <option value="$PROJECT_DIR$/home/notices.php" />
+        <option value="$PROJECT_DIR$/home/not.php" />
+        <option value="$PROJECT_DIR$/home/grant_disp.php" />
+        <option value="$PROJECT_DIR$/home/grant.php" />
+        <option value="$PROJECT_DIR$/home/govt.php" />
+        <option value="$PROJECT_DIR$/home/contacts.php" />
+        <option value="$PROJECT_DIR$/home/confirmation.php" />
+        <option value="$PROJECT_DIR$/home/certificate.php" />
       </list>
     </option>
   </component>
@@ -216,23 +163,7 @@
             <path>
               <item name="judiciary" type="b2602c69:ProjectViewProjectNode" />
               <item name="judiciary" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="judiciary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="judiciary" type="462c0819:PsiDirectoryNode" />
               <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="judiciary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="judiciary" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="judiciary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="judiciary" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="perfect-scrollbar" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -243,7 +174,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../adoption" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
@@ -300,15 +231,54 @@
       <workItem from="1531308173090" duration="1761000" />
       <workItem from="1531309959633" duration="1784000" />
       <workItem from="1531311770657" duration="1444000" />
-      <workItem from="1531376221277" duration="17398000" />
+      <workItem from="1531376221277" duration="17697000" />
+      <workItem from="1531462296806" duration="11687000" />
+      <workItem from="1531481247688" duration="1072000" />
+      <workItem from="1531482341258" duration="2732000" />
+      <workItem from="1531986608351" duration="626000" />
+      <workItem from="1531989636615" duration="242000" />
+      <workItem from="1531991989468" duration="85000" />
+      <workItem from="1531992599960" duration="176000" />
+      <workItem from="1531992871676" duration="6763000" />
+      <workItem from="1532582745326" duration="1053000" />
+      <workItem from="1532608427038" duration="2350000" />
+      <workItem from="1532668657578" duration="2712000" />
+      <workItem from="1532690281009" duration="208000" />
+      <workItem from="1533020957279" duration="1712000" />
+      <workItem from="1533022790154" duration="1763000" />
+      <workItem from="1533024787115" duration="1714000" />
+      <workItem from="1533026902222" duration="1773000" />
+      <workItem from="1533030967950" duration="21000" />
+      <workItem from="1533036825942" duration="63000" />
+      <workItem from="1533036977309" duration="627000" />
+      <workItem from="1533102763359" duration="112000" />
+      <workItem from="1533102884938" duration="1746000" />
+      <workItem from="1533107432690" duration="1696000" />
+      <workItem from="1533115487611" duration="2000" />
+      <workItem from="1533196778575" duration="1722000" />
+      <workItem from="1533198614947" duration="1750000" />
+      <workItem from="1533200460093" duration="1744000" />
+      <workItem from="1533202436320" duration="1731000" />
+      <workItem from="1533204443347" duration="1095000" />
+      <workItem from="1533207584071" duration="1736000" />
+      <workItem from="1533209561706" duration="602000" />
+      <workItem from="1533217561355" duration="1354000" />
+      <workItem from="1533731962736" duration="1754000" />
+      <workItem from="1533733776173" duration="1758000" />
+      <workItem from="1533735774213" duration="1790000" />
+      <workItem from="1533737632017" duration="1782000" />
+      <workItem from="1533740123797" duration="1781000" />
+      <workItem from="1533742232705" duration="1179000" />
+      <workItem from="1533732686878" duration="507000" />
+      <workItem from="1533733362207" duration="1312000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206366000" />
+    <option name="totallyTimeSpent" value="271197000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-4" width="1368" height="773" extended-state="6" />
+    <frame x="-1" y="-11" width="1368" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16105418" />
@@ -338,59 +308,27 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/home/search.php</url>
+          <line>424</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/home/search.php</url>
+          <line>95</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/home/search.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1380">
           <caret line="92" column="22" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#table#0;n#center#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/confirmation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1635">
-          <caret line="109" column="77" selection-start-line="109" selection-start-column="77" selection-end-line="109" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/confirmation_connect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/grant.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1920">
-          <caret line="128" column="43" selection-start-line="123" selection-start-column="36" selection-end-line="128" selection-end-column="43" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#center#0;n#form#0;n#center#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/certificate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1770">
-          <caret line="118" column="80" lean-forward="true" selection-start-line="118" selection-start-column="80" selection-end-line="118" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/certificate_connect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="92" column="22" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -433,162 +371,291 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/certificate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="49" column="71" selection-start-line="49" selection-start-column="71" selection-end-line="49" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/connect.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/govt.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="49" column="71" selection-start-line="49" selection-start-column="71" selection-end-line="49" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/reg.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="49" column="71" selection-start-line="49" selection-start-column="71" selection-end-line="49" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/payment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="51" column="71" selection-start-line="51" selection-start-column="71" selection-end-line="51" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="50" column="80" selection-start-line="50" selection-start-column="80" selection-end-line="50" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/about.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="49" column="71" selection-start-line="49" selection-start-column="71" selection-end-line="49" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/notices.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-480">
-          <caret line="52" column="71" selection-start-line="52" selection-start-column="71" selection-end-line="52" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/grant.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="49" column="71" selection-start-line="49" selection-start-column="71" selection-end-line="49" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/contacts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="49" column="71" selection-start-line="49" selection-start-column="71" selection-end-line="49" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/confirmation_connect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/confirmation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="49" column="71" selection-start-line="49" selection-start-column="71" selection-end-line="49" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="75" column="19" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="75" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/objection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="85" column="80" selection-start-line="85" selection-start-column="80" selection-end-line="85" selection-end-column="80" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#center#0;n#form#0;n#center#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#center#0;n#form#0;n#center#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#1;n#div#0;n#center#0;n#form#0;n#center#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#1;n#div#0;n#center#0;n#form#0;n#center#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/objection_connect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home/not_connect.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/not.php">
+    <entry file="file://$PROJECT_DIR$/sign_connect.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="98" column="122" selection-start-line="98" selection-start-column="116" selection-end-line="98" selection-end-column="122" />
+        <state>
+          <caret selection-end-line="24" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log_connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/register_connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/govt_connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/reg_connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/grant_connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/notices_connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clerk/register_connect.php" />
+    <entry file="file://$PROJECT_DIR$/clerk/ammend.php" />
+    <entry file="file://$PROJECT_DIR$/clerk/connect.php" />
+    <entry file="file://$PROJECT_DIR$/clerk/dashboard.php" />
+    <entry file="file://$PROJECT_DIR$/clerk/register.php" />
+    <entry file="file://$PROJECT_DIR$/home/case_reg_connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="43" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="9" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/objection_connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="183" selection-start-line="16" selection-start-column="183" selection-end-line="16" selection-end-column="183" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/confirmation_connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sign_up.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/case_amend_connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="9" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/amend_connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="57" selection-end-line="27" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/grant_disp_connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="47" selection-end-line="28" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/cert_disp_connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="185" column="58" selection-start-line="185" selection-start-column="58" selection-end-line="185" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/amend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="230" column="72" selection-start-line="230" selection-start-column="72" selection-end-line="230" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/case_amend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1820">
+          <caret line="98" column="67" selection-start-line="98" selection-start-column="67" selection-end-line="98" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/cert_disp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="231" column="125" selection-start-line="231" selection-start-column="125" selection-end-line="231" selection-end-column="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/cases.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4370">
+          <caret line="137" column="51" lean-forward="true" selection-start-line="137" selection-start-column="51" selection-end-line="137" selection-end-column="51" />
           <folding>
-            <element signature="e#1457#1463#0" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#center#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#center#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#center#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#center#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#center#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#center#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/home/case_reg.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2870">
+          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/connect.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/home/search.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="111" column="33" lean-forward="true" selection-start-line="90" selection-start-column="8" selection-end-line="111" selection-end-column="33" />
+        <state relative-caret-position="-1055">
+          <caret line="691" column="4" selection-start-line="691" selection-start-column="4" selection-end-line="691" selection-end-column="4" />
           <folding>
             <element signature="n#style#0;n#table#0;n#center#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#center#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home/report.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="99" column="11" lean-forward="true" selection-start-line="99" selection-start-column="11" selection-end-line="99" selection-end-column="11" />
+        <state relative-caret-position="-920">
+          <caret line="128" column="25" selection-start-line="128" selection-start-column="25" selection-end-line="128" selection-end-column="25" />
           <folding>
-            <element signature="n#style#0;n#button#0;n#td#0;n#form#0;n#table#0;n#center#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#2952#2958#0#HTML" expanded="true" />
-            <element signature="e#2958#2964#0#HTML" expanded="true" />
-            <element signature="e#2964#2970#0#HTML" expanded="true" />
-            <element signature="e#2970#2976#0#HTML" expanded="true" />
-            <element signature="e#2976#2982#0#HTML" expanded="true" />
-            <element signature="e#2982#2988#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#td#0;n#form#1;n#table#0;n#center#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#3216#3222#0#HTML" expanded="true" />
-            <element signature="e#3222#3228#0#HTML" expanded="true" />
-            <element signature="e#3228#3234#0#HTML" expanded="true" />
-            <element signature="e#3234#3240#0#HTML" expanded="true" />
-            <element signature="e#3240#3246#0#HTML" expanded="true" />
-            <element signature="e#3246#3252#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#td#0;n#form#2;n#table#0;n#center#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#center#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#center#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="154" selection-start-line="154" selection-end-line="154" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/reg.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="146" selection-start-line="146" selection-end-line="146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/payment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="162" selection-start-line="162" selection-end-line="162" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/objection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="164" selection-start-line="164" selection-end-line="164" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/notices.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="147" selection-start-line="147" selection-end-line="147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/not.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/grant.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="157" selection-start-line="157" selection-end-line="157" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/grant_disp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="152" selection-start-line="152" selection-end-line="152" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="52" column="65" selection-start-line="52" selection-start-column="65" selection-end-line="52" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/govt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="146" selection-start-line="146" selection-end-line="146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/contacts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="185" selection-start-line="185" selection-end-line="185" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/confirmation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="168" selection-start-line="168" selection-end-line="168" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/certificate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="163" selection-start-line="163" selection-end-line="163" />
         </state>
       </provider>
     </entry>

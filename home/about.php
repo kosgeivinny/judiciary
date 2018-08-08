@@ -46,7 +46,7 @@ include '../../judiciary/log_connect.php';
                             <li>  &nbsp;&nbsp;</li>
                             <li role="presentation"><a href="index.php">Home</a></li>
                             <li role="presentation"><a href="register.php">Registration</a></li>
-                            <li role="presentation"><a href="#">Courts</a></li>
+                            <li role="presentation"><a href="cases.php">Cases</a></li>
                             <li role="presentation"><a href="report.php">Reports</a></li>
                             <li role="presentation" class="active"><a href="about.php">About</a></li>
                             <li role="presentation"><a href="contacts.php">Contact</a></li>
@@ -174,7 +174,7 @@ include '../../judiciary/log_connect.php';
           <div class="col-lg-6">
             <div class="copyright">
               <p>
-                <span>&copy; Arsha, All right reserved.</span>
+                <span>&copy; Eldoret Law Courts, All right reserved.</span>
               </p>
               <div class="credits">
                 <!--
@@ -183,7 +183,7 @@ include '../../judiciary/log_connect.php';
                   Licensing information: https://bootstrapmade.com/license/
                   Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Arsha
                 -->
-                <a href="https://bootstrapmade.com/">Bootstrap Templates</a> by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                <a href="https://bootstrapmade.com/"> P & A </a> by <a href="https://bootstrapmade.com/">ICT TEAM</a>
               </div>
             </div>
           </div>
