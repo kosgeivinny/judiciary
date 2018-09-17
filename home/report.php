@@ -1,6 +1,12 @@
 <?php
 include '../../judiciary/log_connect.php';
 
+if (!isset($_SESSION['name']))
+{
+    header("Location: ../index.php");
+    die();
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -62,7 +68,7 @@ include '../../judiciary/log_connect.php';
     <center>
         <table>
             <form method='post' action='report.php'>
-               <td>
+               <tr><td>
                         <button type="submit" class="btn btn-success" name="object" style='background-color: red; padding: 10px; margin: 4px 2px;  border-radius: 12px;'> <b> Cases with Objection </b> </button></td>
             </form>
             <form method='post' action='report.php'>
@@ -73,8 +79,11 @@ include '../../judiciary/log_connect.php';
                 <td><label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label><button type="submit" class="btn btn-success" name="fil" style='background-color: blue; padding: 10px; margin: 4px 2px; border-radius: 12px;'> <b> Awaiting Filing Summons for Confirmation </b> </button></td>
             </form>
             <form method='post' action='report.php'>
+                <td><label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label><button type="submit" class="btn btn-success" name="conf" style='background-color: sandybrown; padding: 10px; margin: 4px 2px; border-radius: 12px;'> <b> Awaiting Confirmation </b> </button></td>
+            </form>
+            <form method='post' action='https://www.judiciary.go.ke/resources/forms/'>
 
-            <td><label>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><button type="submit" class="btn btn-success" name="conf" style='background-color: sandybrown; padding: 10px; margin: 4px 2px; border-radius: 12px;'> <b> Awaiting Confirmation </b> </button></td>
+            <td><label>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><button type="submit" class="btn btn-primary" style='background-color: greenyellow; padding: 10px; margin: 4px 2px; border-radius: 12px;'> <b> Downloads </b> </button></td>
                 </tr>
             </form>
 </table>

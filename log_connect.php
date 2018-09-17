@@ -4,7 +4,9 @@ session_start();
 
 if( isset($_POST["login"])) {
     $username=$_POST['username'];
-    $password=($_POST['password']);
+    $pwd = $_POST['password'];
+    $password=md5($pwd);
+
 
 
     $sql= "SELECT * FROM staff WHERE Username='$username' AND Password = '$password' ";

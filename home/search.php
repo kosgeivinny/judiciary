@@ -1,6 +1,12 @@
 <?php
 include '../../judiciary/log_connect.php';
 
+if (!isset($_SESSION['name']))
+{
+    header("Location: ../index.php");
+    die();
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -122,31 +128,31 @@ include '../../judiciary/log_connect.php';
         $nur = mysqli_query($conn, $run);
         $numr = mysqli_num_rows($nur);
 
-        $gra = "SELECT * FROM grantt WHERE Caseno = $case";
+        $gra = "SELECT * FROM grantt WHERE Caseno = '$case'";
         $rag = mysqli_query($conn, $gra);
         $gnum = mysqli_num_rows($rag);
 
-        $conf = "SELECT * FROM confirmation WHERE Caseno = $case";
+        $conf = "SELECT * FROM confirmation WHERE Caseno = '$case'";
         $fon = mysqli_query($conn, $conf);
         $cnum = mysqli_num_rows($fon);
 
-        $cert = "SELECT * FROM certificate WHERE Caseno = $case";
+        $cert = "SELECT * FROM certificate WHERE Caseno = '$case'";
         $cer = mysqli_query($conn, $cert);
         $ter = mysqli_num_rows($cer);
 
-        $cou = "SELECT * FROM counter WHERE Caseno = $case";
+        $cou = "SELECT * FROM counter WHERE Caseno = '$case'";
         $cout = mysqli_query($conn, $cou);
         $count = mysqli_num_rows($cout);
 
-        $gdisp = "SELECT * FROM grant_disp WHERE Caseno = $case";
+        $gdisp = "SELECT * FROM grant_disp WHERE Caseno = '$case'";
         $gdis = mysqli_query($conn, $gdisp);
         $gdi = mysqli_num_rows($gdis);
 
-        $cdisp = "SELECT * FROM cert_disp WHERE Caseno = $case";
+        $cdisp = "SELECT * FROM cert_disp WHERE Caseno = '$case'";
         $cdis = mysqli_query($conn, $cdisp);
         $cdi = mysqli_num_rows($cdis);
 
-        $adisp = "SELECT * FROM application WHERE Caseno = $case";
+        $adisp = "SELECT * FROM application WHERE Caseno = '$case'";
         $adis = mysqli_query($conn, $adisp);
         $adi = mysqli_num_rows($adis);
 

@@ -27,7 +27,7 @@ if (!isset($_SESSION['name']))
 
 <body>
 <div class="navbar navbar-inverse navbar-fixed-top" style="background-color: darkgreen">
-    <label style="text-align: right; color:#f5e79e; margin: 0px 0px 0px 100px;"> <h4><b><?php echo $_SESSION['name']; ?></b></h4></label>
+    <label style="text-align: right; color:#f5e79e; margin: 0px 0px 0px 100px;"> <h4><b><?php echo $_SESSION['name']; ?></b></h4></label><a href="edit.php"> Edit </a>
         <span class="logout-spn" style="float:right;">
                    <a href="logout.php" class="btn btn-warning" style="margin: 8px 50px 0px 0px;">
           <span class="glyphicon glyphicon-log-out"></span> <b>LOG OUT</b>

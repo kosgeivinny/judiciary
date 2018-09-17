@@ -3,6 +3,11 @@ include '../../judiciary/log_connect.php';
 
 $date = date("Y/m/d");
 $sub = $_SESSION['name'];
+if (!isset($_SESSION['name']))
+{
+    header("Location: ../index.php");
+    die();
+}
 
 ?>
 <!DOCTYPE html>

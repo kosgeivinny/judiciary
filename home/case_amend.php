@@ -8,6 +8,11 @@ $parts = explode('-',$date);
 $month = $parts[1];;
 $sub = $_SESSION['name'];
 
+if (!isset($_SESSION['name']))
+{
+    header("Location: ../index.php");
+    die();
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">

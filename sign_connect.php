@@ -6,9 +6,10 @@ if (isset($_POST['submit'])){
     $uid=$_POST['id'];
     $uemail=$_POST['email'];
     $susername=$_POST['username'];
-    $pwd=$_POST['password'];
+    $pass=$_POST['password'];
+    $pwd = md5($pass);
 
-    $reg= "INSERT INTO staff (Name, ID, Email, Username, Password) VALUES ('$uname', '$uid', '$uemail', '$susername', '$pwd')";
+    $reg= "INSERT INTO staff (Name, PJ, Email, Username, Password) VALUES ('$uname', '$uid', '$uemail', '$susername', '$pwd')";
     $ger= mysqli_query($conn, $reg);
     if (!$ger){
         die("Query failed" .mysqli_error($conn));

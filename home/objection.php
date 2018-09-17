@@ -1,6 +1,11 @@
 <?php
 include '../../judiciary/log_connect.php';
 $sub = $_SESSION['name'];
+if (!isset($_SESSION['name']))
+{
+    header("Location: ../index.php");
+    die();
+}
 
 ?>
 <!DOCTYPE html>

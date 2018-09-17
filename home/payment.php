@@ -1,6 +1,11 @@
 <?php
 include '../../judiciary/log_connect.php';
 
+if (!isset($_SESSION['name']))
+{
+    header("Location: ../index.php");
+    die();
+}
 ?>
 <?php
 include "notices_connect.php";

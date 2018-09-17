@@ -1,6 +1,11 @@
 <?php
 include '../../judiciary/log_connect.php';
 
+if (!isset($_SESSION['name']))
+{
+    header("Location: ../index.php");
+    die();
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -88,14 +93,16 @@ include '../../judiciary/log_connect.php';
                 <div class="col-lg-6">
                     <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">
                         <div class="thumnails">
-                            <h4>Voluptatem accusantium doloremque</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl
-                                ut aliquip ex ea commodo consequat.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl
-                                ut aliquip ex ea commodo consequat.</p>
+                            <h4>Probate & Administration</h4>
+                            <p>Most people own some assets or carry some debt at the time of their death. The assets and liabilities of someone who has
+                                passed away form their “estate.” Each state has its own set of laws governing what to do with the estate and how to
+                                accommodate the deceased’s estate plan - or lack thereof.</p>
+                            <p>The process of closing an estate is overseen by the state’s
+                                probate court system. So, lawyers who work with probate laws and estate administration focus on what happens after
+                                someone dies, as opposed to estate planning attorneys, who try to put a plan in place before death.</p>
 
                             <div class="ficon">
-                                <a href="" alt="">Learn more</a> <i class="fa fa-long-arrow-right"></i>
+                                <a href="https://www.judiciary.go.ke/resources/forms/" alt="">Learn more</a> <i class="fa fa-long-arrow-right"></i>
                             </div>
                         </div>
                     </div>
@@ -104,64 +111,7 @@ include '../../judiciary/log_connect.php';
         </div>
     </div>
 </div>
-  <div class="container">
-    <div class="row">
-      <hr>
-    </div>
-  </div>
-
   <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3">
-          <div class="widget">
-            <h5 class="widgetheading">Get in touch with us</h5>
-            <address>
-						<strong>Arsha company Inc</strong><br>
-						 Modernbuilding suite V124, AB 01<br>
-						 Someplace 16425 Earth
-						</address>
-            <p>
-              <i class="icon-phone"></i> (123) 456-7890 - (123) 555-7891 <br>
-              <i class="icon-envelope-alt"></i> email@domainname.com
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="widget">
-            <h5 class="widgetheading">Pages</h5>
-            <ul class="link-list">
-              <li><a href="#">Press release</a></li>
-              <li><a href="#">Terms and conditions</a></li>
-              <li><a href="#">Privacy policy</a></li>
-              <li><a href="#">Career center</a></li>
-              <li><a href="#">Contact us</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="widget">
-            <h5 class="widgetheading">Latest posts</h5>
-            <ul class="link-list">
-              <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-              <li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
-              <li><a href="#">Natus error sit voluptatem accusantium doloremque</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="widget">
-            <h5 class="widgetheading">Flickr photostream</h5>
-            <div class="flickr_badge">
-              <script type="text/javascript" src="https://www.flickr.com/badge_code_v2.gne?count=8&amp;display=random&amp;size=s&amp;layout=x&amp;source=user&amp;user=34178660@N03"></script>
-            </div>
-            <div class="clear">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <div class="container">
       <div class="row">
         <hr>

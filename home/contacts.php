@@ -1,5 +1,10 @@
 <?php
 include '../../judiciary/log_connect.php';
+if (!isset($_SESSION['name']))
+{
+    header("Location: ../index.php");
+    die();
+}
 
 ?>
 <!DOCTYPE html>
@@ -76,13 +81,13 @@ include '../../judiciary/log_connect.php';
             <div class="col-md-4">
                 <div class="wow fadeInUp" data-wow-delay="0.2s">
                     <div class="align-center">
-                        <h4>Alexandra</h4>
+                        <h4>Vincent Kosgei</h4>
                         <div class="icon">
                             <i class="fa fa-tasks fa-3x"></i>
                         </div>
-                        <img src="img/team/3.jpg" alt="" class="img-responsive">
+                        <img src="img/team/3.jpg" alt="" class="img-responsive" style="height: 240px; width: 240px">
                         <p>
-                            Voluptatem accusantium doloremque laudantium sprea totam rem aperiam.
+                            Developer.
                         </p>
                         <div class="ficon">
                             <a href="" alt="">Learn more</a><i class="fa fa-long-arrow-right"></i>
@@ -93,13 +98,13 @@ include '../../judiciary/log_connect.php';
             <div class="col-md-4">
                 <div class="wow fadeInUp" data-wow-delay="0.4s">
                     <div class="align-center">
-                        <h4>John Doe</h4>
+                        <h4>Kevin Mwangi</h4>
                         <div class="icon">
                             <i class="fa fa-files-o fa-3x"></i>
                         </div>
                         <img src="img/13.jpg" alt="" class="img-responsive">
                         <p>
-                            Voluptatem accusantium doloremque laudantium sprea totam rem aperiam.
+                            Designer.
                         </p>
                         <div class="ficon">
                             <a href="" alt="">Learn more</a> <i class="fa fa-long-arrow-right"></i>
@@ -110,13 +115,13 @@ include '../../judiciary/log_connect.php';
             <div class="col-md-4">
                 <div class="wow fadeInUp" data-wow-delay="0.6s">
                     <div class="align-center">
-                        <h4>Kelly Hidayah</h4>
+                        <h4>Foustin Mawaya</h4>
                         <div class="icon">
                             <i class="fa fa-location-arrow fa-3x"></i>
                         </div>
-                        <img src="img/team/members3.jpg" alt="" class="img-responsive">
+                        <img src="img/team/members3.jpg" alt="" class="img-responsive" style="height: 240px; width: 240px">
                         <p>
-                            Voluptatem accusantium doloremque laudantium sprea totam rem aperiam.
+                            Researcher.
                         </p>
                         <div class="ficon">
                             <a href="" alt="">Learn more</a> <i class="fa fa-long-arrow-right"></i>
@@ -172,11 +177,11 @@ include '../../judiciary/log_connect.php';
           <button class="btn-primarys"><h3>Get in touch with us</h3></button>
         </div>
         <div class="contact-area">
-          <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum.</p>
-          <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum.</p>
+          <p>Have questions about our system?. Our team receives specialized training regularly to ensure you are receiving the best services from the Probate and Administration System. Feel free to contact any of our team members any time or send us a message.</p>
+          <p> We are incredibly responsive to your requests and value your questions. They are an indication of your acceptance of the System</p>
 
-          <h4>Address:</h4>123 Street Texas,USA<br>
-          <h4>Telephone:</h4>123 456 789</br>
+          <h4>Address:</h4>141, Eldoret<br>
+          <h4>Telephone:</h4> 053 2033441 </br>
           <h4>Fax:</h4>123 456 789
         </div>
       </div>
